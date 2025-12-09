@@ -312,6 +312,7 @@ label zorro_battle3:
             jump rescue_lloyd
 
 label rescue_lloyd:
+    hide zorro
     show lloyd
     image lloyd = im.Scale("lloyd.png", 600, 600)
     show lloyd at right
